@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+*{
+    margin: 0px;
+}
+
+body{
+    background-color:rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    color:#0065FF ;
+    margin-top: 43px ;
+    margin-left: 46px;
+
+}
+
+h3 {
+    font-size :30px;
+    font-weight: 800;
+    text-align: left;
+}
+
+img {
+    margin-top:20px ;
+    margin-left: 15px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border-color: #000000;
+}
+
+label {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom:8px; 
+    margin-left: 5px; 
+    text-decoration: right;  
+    color: #000000;
+}
+
+select{
+    outline: none; 
+        background-color:rgba(1, 42, 85, 0.15); 
+        color:#000000; 
+        font-size: 15px ;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        padding: 0px 16px;
+        width: 200px;
+        height: 30px;
+        border: 1px solid rgba(1, 42, 85, 0.37);
+        border-radius: 12px;
+}
+
+input{
+        outline: none; 
+        background-color:rgba(1, 42, 85, 0.15); 
+        color:#000000; 
+        font-size: 15px ;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        /* padding-top:6px; */
+        padding: 0px 16px;
+        width: 200px;
+        height: 30px;
+        border: 1px solid rgba(1, 42, 85, 0.37);
+        border-radius: 12px;
+        margin-top: 5px;margin-bottom: 5px; margin-right: 5px;
+}
+
+
+input::placeholder {
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color:#033f9888;
+     
+}
+
+input:focus {
+    border: 1px solid #0065FF ;
+}
+#image
+{
+    margin-top: 15px;
+
+    }
+#firstname{
+ float: left; 
+ margin-right: 10px;
+}
+#middlename{
+    float: left;
+    margin-right: 10px;
+}
+#faculty{
+    float: left;
+    margin-right: 10px;
+}
